@@ -1845,13 +1845,15 @@ body {
     transform: translate(0, 0) scale(1);
   }
 }
+
 .heart {
   fill: transparent;
   opacity: 0;
-  object-fit: contain;
-  width: 100%;
-  height: 100%;
+
+
+
 }
+
 .bubble:nth-child(1) .heart {
   -webkit-animation: love 3s forwards infinite 0s;
   animation: love 3s forwards infinite 0s;
@@ -1865,10 +1867,11 @@ body {
   transform: scale(0.5) rotate(22deg);
 }
 .bubble:nth-child(3) .heart {
+  width: 100%;
   -webkit-animation: love 3s forwards infinite 0.3s;
   animation: love 3s forwards infinite 0.3s;
-  -webkit-transform: scale(0.5) rotate(-5deg);
-  transform: scale(0.5) rotate(-5deg);
+  -webkit-transform:  rotate(-5deg);
+  transform: rotate(-5deg);
 }
 .bubble:nth-child(4) .heart {
   -webkit-animation: love 3s forwards infinite 0.45s;
@@ -1877,10 +1880,11 @@ body {
   transform: scale(0.5) rotate(50deg);
 }
 .bubble:nth-child(5) .heart {
+  width: 100%;
   -webkit-animation: love 3s forwards infinite 0.6s;
   animation: love 3s forwards infinite 0.6s;
-  -webkit-transform: scale(0.5) rotate(-29deg);
-  transform: scale(0.5) rotate(-29deg);
+  -webkit-transform:  rotate(-29deg);
+  transform:  rotate(-29deg);
 }
 .bubble:nth-child(6) .heart {
   -webkit-animation: love 3s forwards infinite 0.75s;
@@ -1889,16 +1893,18 @@ body {
   transform: scale(0.5) rotate(35deg);
 }
 .bubble:nth-child(7) .heart {
+  width: 100%;
   -webkit-animation: love 3s forwards infinite 0.9s;
   animation: love 3s forwards infinite 0.9s;
-  -webkit-transform: scale(0.5) rotate(-5deg);
-  transform: scale(0.5) rotate(-5deg);
+  -webkit-transform:  rotate(-5deg);
+  transform: rotate(-5deg);
 }
 .bubble:nth-child(8) .heart {
+  width: 100%;
   -webkit-animation: love 3s forwards infinite 1.05s;
   animation: love 3s forwards infinite 1.05s;
-  -webkit-transform: scale(0.5) rotate(40deg);
-  transform: scale(0.5) rotate(40deg);
+  -webkit-transform: rotate(40deg);
+  transform:  rotate(40deg);
 }
 .bubble:nth-child(9) .heart {
   -webkit-animation: love 3s forwards infinite 1.2s;
@@ -1907,16 +1913,19 @@ body {
   transform: scale(0.5) rotate(-35deg);
 }
 .bubble:nth-child(10) .heart {
+  width: 100%;
   -webkit-animation: love 3s forwards infinite 1.35s;
   animation: love 3s forwards infinite 1.35s;
-  -webkit-transform: scale(0.5) rotate(28deg);
-  transform: scale(0.5) rotate(28deg);
+  -webkit-transform: rotate(28deg);
+  transform: rotate(28deg);
+  
 }
 .bubble:nth-child(11) .heart {
+  width: 100%;
   -webkit-animation: love 3s forwards infinite 1.5s;
   animation: love 3s forwards infinite 1.5s;
-  -webkit-transform: scale(0.5) rotate(-3deg);
-  transform: scale(0.5) rotate(-3deg);
+  -webkit-transform:  rotate(-3deg);
+  transform: rotate(-3deg);
 }
 .bubble:nth-child(12) .heart {
   -webkit-animation: love 3s forwards infinite 1.65s;
@@ -1925,16 +1934,18 @@ body {
   transform: scale(0.5) rotate(48deg);
 }
 .bubble:nth-child(13) .heart {
+  width: 100%;
   -webkit-animation: love 3s forwards infinite 1.8s;
   animation: love 3s forwards infinite 1.8s;
-  -webkit-transform: scale(0.5) rotate(-33deg);
-  transform: scale(0.5) rotate(-33deg);
+  -webkit-transform:  rotate(-33deg);
+  transform:  rotate(-33deg);
 }
 .bubble:nth-child(14) .heart {
+  width: 100%;
   -webkit-animation: love 3s forwards infinite 1.95s;
   animation: love 3s forwards infinite 1.95s;
-  -webkit-transform: scale(0.5) rotate(40deg);
-  transform: scale(0.5) rotate(40deg);
+  -webkit-transform: rotate(40deg);
+  transform: rotate(40deg);
 }
 .bubble:nth-child(15) .heart {
   -webkit-animation: love 3s forwards infinite 2.1s;
@@ -1943,16 +1954,18 @@ body {
   transform: scale(0.5) rotate(-29deg);
 }
 .bubble:nth-child(16) .heart {
+  width: 100%;
   -webkit-animation: love 3s forwards infinite 2.25s;
   animation: love 3s forwards infinite 2.25s;
-  -webkit-transform: scale(0.5) rotate(19deg);
-  transform: scale(0.5) rotate(19deg);
+  -webkit-transform:  rotate(19deg);
+  transform:  rotate(19deg);
 }
 .bubble:nth-child(17) .heart {
+  width: 100%;
   -webkit-animation: love 3s forwards infinite 2.4s;
   animation: love 3s forwards infinite 2.4s;
-  -webkit-transform: scale(0.5) rotate(-29deg);
-  transform: scale(0.5) rotate(-29deg);
+  -webkit-transform:  rotate(-29deg);
+  transform: rotate(-29deg);
 }
 .bubble:nth-child(18) .heart {
   -webkit-animation: love 3s forwards infinite 2.55s;
@@ -1965,12 +1978,14 @@ body {
   animation: love 3s forwards infinite 2.7s;
   -webkit-transform: scale(0.5) rotate(-10deg);
   transform: scale(0.5) rotate(-10deg);
+  
 }
 .bubble:nth-child(20) .heart {
+  width: 100%;
   -webkit-animation: love 3s forwards infinite 2.85s;
   animation: love 3s forwards infinite 2.85s;
-  -webkit-transform: scale(0.5) rotate(46deg);
-  transform: scale(0.5) rotate(46deg);
+  -webkit-transform: rotate(46deg);
+  transform:  rotate(46deg);
 }
 
 @-webkit-keyframes love {
